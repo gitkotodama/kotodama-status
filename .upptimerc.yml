@@ -1,12 +1,23 @@
 owner: gitkotodama
 repo: kotodama-status
+user-agent: kotodama-status
 
 sites:
   - name: Web pública
     url: https://kotodama.dev/
     maxResponseTime: 5000
-  - name: Kotodama
-    url: https://kotodama.dev/health
+  - name: PHP
+    url: https://kotodama.dev/health?service=php
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 5000
+  - name: SQLite
+    url: https://kotodama.dev/health?service=database
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 5000
+  - name: Almacenamiento
+    url: https://kotodama.dev/health?service=storage
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
@@ -14,18 +25,41 @@ sites:
 status-website:
   cname: status.kotodama.dev
   name: Estado de Kotodama
-  introTitle: "Estado de los servicios de Kotodama"
-  introMessage: "Información pública sobre disponibilidad e incidencias de los servicios."
-  theme: light
+  themeUrl: https://status.kotodama.dev/kotodama-status.css
+  favicon: https://status.kotodama.dev/favicon.png
+  introTitle: ">_ estado de los servicios"
+  introMessage: "Monitorización externa de la disponibilidad de Kotodama. Este panel se ejecuta fuera del servidor principal para que siga siendo accesible durante una incidencia."
   navbar:
-    - title: Estado
+    - title: estado
       href: /
-    - title: Kotodama
+    - title: kotodama.dev
       href: https://kotodama.dev/
+  customBodyHtml: |
+    <div class="koto-status-brandbar">
+      <div class="koto-status-brandinner">
+        <a class="koto-status-brand" href="https://kotodama.dev/">kotodama</a>
+        <span class="koto-status-brandsep">//</span>
+        <span class="koto-status-brandsection">estado de servicios</span>
+      </div>
+    </div>
+  customFootHtml: |
+    <div class="koto-status-external-note">
+      <span class="koto-status-prompt">&gt;_</span>
+      comprobaciones externas automáticas mediante GitHub Actions
+    </div>
+  metaTags:
+    - name: color-scheme
+      content: dark
+    - name: theme-color
+      content: "#111111"
+
+# Mantener las incidencias breves en el historial público en lugar de
+# eliminarlas automáticamente si duran menos de 15 minutos.
+skipDeleteIssues: true
 
 i18n:
   activeIncidents: Incidentes activos
-  allSystemsOperational: Todos los sistemas operativos
+  allSystemsOperational: Todos los servicios están operativos
   incidentReport: "Incidente #$NUMBER →"
   activeIncidentSummary: Abierto a las $DATE con $POSTS actualizaciones
   incidentTitle: Detalles del incidente $NUMBER
@@ -52,6 +86,6 @@ i18n:
   ms: ms
   loading: Cargando
   navGitHub: GitHub
-  footer: "Panel de estado de Kotodama"
+  footer: "Kotodama · estado de los servicios"
   rateLimitExceededTitle: Se ha superado temporalmente el límite de GitHub
   rateLimitExceededIntro: Vuelve a intentarlo dentro de unos minutos.
