@@ -1,31 +1,57 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: gitkotodama
+repo: kotodama-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Web pública
+    url: https://kotodama.dev/
+    maxResponseTime: 5000
+  - name: Kotodama
+    url: https://kotodama.dev/health
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.kotodama.dev
+  name: Estado de Kotodama
+  introTitle: "Estado de los servicios de Kotodama"
+  introMessage: "Información pública sobre disponibilidad e incidencias de los servicios."
+  theme: light
   navbar:
-    - title: Status
+    - title: Estado
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Kotodama
+      href: https://kotodama.dev/
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas operativos
+  incidentReport: "Incidente #$NUMBER →"
+  activeIncidentSummary: Abierto a las $DATE con $POSTS actualizaciones
+  incidentTitle: Detalles del incidente $NUMBER
+  incidentDetails: Detalles del incidente
+  incidentFixed: Resuelto
+  incidentOngoing: En curso
+  incidentOpenedAt: Abierto el
+  incidentClosedAt: Cerrado el
+  incidentViewOnGitHub: Ver en GitHub
+  incidentCommentSummary: Publicado el $DATE por $AUTHOR
+  incidentBack: ← Volver a todos los incidentes
+  pastIncidents: Incidentes anteriores
+  pastIncidentsResolved: Resuelto en $MINUTES minutos con $POSTS actualizaciones
+  liveStatus: Estado actual
+  overallUptime: "Disponibilidad total: $UPTIME"
+  overallUptimeTitle: Disponibilidad total
+  averageResponseTime: "Tiempo medio de respuesta: $TIME ms"
+  averageResponseTimeTitle: Tiempo medio de respuesta
+  sevelDayResponseTime: Tiempo de respuesta de 7 días
+  responseTimeMs: Tiempo de respuesta (ms)
+  up: Operativo
+  down: Caído
+  degraded: Degradado
+  ms: ms
+  loading: Cargando
+  navGitHub: GitHub
+  footer: "Panel de estado de Kotodama"
+  rateLimitExceededTitle: Se ha superado temporalmente el límite de GitHub
+  rateLimitExceededIntro: Vuelve a intentarlo dentro de unos minutos.
