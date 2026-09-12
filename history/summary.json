@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "web-publica",
     "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.60%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
+    "uptime": "99.96%",
+    "uptimeDay": "99.41%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 706,
     "timeDay": 628,
     "timeWeek": 719,
     "timeMonth": 706,
     "timeYear": 706,
     "dailyMinutesDown": {
-      "2026-09-12": 6
+      "2026-09-12": 8
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://kotodama.dev/health?service=php",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "php",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 377,
-    "timeDay": 310,
-    "timeWeek": 367,
-    "timeMonth": 377,
-    "timeYear": 377,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 383,
+    "timeDay": 392,
+    "timeWeek": 380,
+    "timeMonth": 383,
+    "timeYear": 383,
     "dailyMinutesDown": {
-      "2026-09-12": 1
+      "2026-09-12": 4
     }
   },
   {
