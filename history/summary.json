@@ -4,17 +4,17 @@
     "url": "https://kotodama.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "web-publica",
-    "status": "down",
+    "status": "up",
     "uptime": "99.96%",
     "uptimeDay": "99.41%",
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.96%",
-    "time": 706,
-    "timeDay": 628,
-    "timeWeek": 719,
-    "timeMonth": 706,
-    "timeYear": 706,
+    "time": 719,
+    "timeDay": 835,
+    "timeWeek": 731,
+    "timeMonth": 719,
+    "timeYear": 719,
     "dailyMinutesDown": {
       "2026-09-12": 8
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "99.96%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.98%",
-    "time": 383,
-    "timeDay": 392,
-    "timeWeek": 380,
-    "timeMonth": 383,
-    "timeYear": 383,
+    "time": 381,
+    "timeDay": 412,
+    "timeWeek": 370,
+    "timeMonth": 381,
+    "timeYear": 381,
     "dailyMinutesDown": {
       "2026-09-12": 4
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 418,
-    "timeDay": 346,
-    "timeWeek": 421,
-    "timeMonth": 418,
-    "timeYear": 418,
+    "time": 419,
+    "timeDay": 421,
+    "timeWeek": 413,
+    "timeMonth": 419,
+    "timeYear": 419,
     "dailyMinutesDown": {}
   },
   {
@@ -68,11 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 385,
-    "timeDay": 311,
-    "timeWeek": 369,
-    "timeMonth": 385,
-    "timeYear": 385,
+    "time": 384,
+    "timeDay": 350,
+    "timeWeek": 353,
+    "timeMonth": 384,
+    "timeYear": 384,
     "dailyMinutesDown": {}
   }
 ]
