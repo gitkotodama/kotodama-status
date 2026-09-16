@@ -44,18 +44,20 @@
     "url": "https://kotodama.dev/health?service=database",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "sq-lite",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 420,
-    "timeDay": 453,
-    "timeWeek": 415,
-    "timeMonth": 420,
-    "timeYear": 420,
-    "dailyMinutesDown": {}
+    "time": 669,
+    "timeDay": 3183,
+    "timeWeek": 1102,
+    "timeMonth": 669,
+    "timeYear": 669,
+    "dailyMinutesDown": {
+      "2026-09-16": 0
+    }
   },
   {
     "name": "Almacenamiento",
