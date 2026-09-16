@@ -1,7 +1,7 @@
 url: https://kotodama.dev/health?service=database
-status: degraded
-code: 503
-responseTime: 5986
-lastUpdated: 2026-09-16T02:57:16.631Z
+status: up
+code: 200
+responseTime: 384
+lastUpdated: 2026-09-16T03:13:21.182Z
 startTime: 2026-08-27T19:37:15.605Z
 generator: Upptime <https://github.com/upptime/upptime>
