@@ -10,11 +10,11 @@
     "uptimeWeek": "99.92%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
-    "time": 705,
+    "time": 699,
     "timeDay": 560,
-    "timeWeek": 695,
-    "timeMonth": 705,
-    "timeYear": 705,
+    "timeWeek": 659,
+    "timeMonth": 699,
+    "timeYear": 699,
     "dailyMinutesDown": {
       "2026-09-12": 8
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "99.96%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
-    "time": 379,
-    "timeDay": 357,
-    "timeWeek": 377,
-    "timeMonth": 379,
-    "timeYear": 379,
+    "time": 375,
+    "timeDay": 307,
+    "timeWeek": 354,
+    "timeMonth": 375,
+    "timeYear": 375,
     "dailyMinutesDown": {
       "2026-09-12": 4
     }
@@ -45,16 +45,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "sq-lite",
     "status": "up",
-    "uptime": "99.89%",
+    "uptime": "99.90%",
     "uptimeDay": "97.88%",
     "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.89%",
-    "time": 859,
-    "timeDay": 2621,
-    "timeWeek": 1414,
-    "timeMonth": 859,
-    "timeYear": 859,
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
+    "time": 839,
+    "timeDay": 2599,
+    "timeWeek": 1399,
+    "timeMonth": 839,
+    "timeYear": 839,
     "dailyMinutesDown": {
       "2026-09-16": 30
     }
@@ -70,11 +70,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 382,
-    "timeDay": 366,
-    "timeWeek": 367,
-    "timeMonth": 382,
-    "timeYear": 382,
+    "time": 379,
+    "timeDay": 314,
+    "timeWeek": 344,
+    "timeMonth": 379,
+    "timeYear": 379,
     "dailyMinutesDown": {}
   }
 ]
