@@ -1,7 +1,7 @@
 url: https://kotodama.dev/health?service=storage
-status: degraded
+status: up
 code: 200
-responseTime: 22222
-lastUpdated: 2026-09-21T05:33:18.806Z
+responseTime: 442
+lastUpdated: 2026-09-21T05:35:00.122Z
 startTime: 2026-08-27T19:37:16.160Z
 generator: Upptime <https://github.com/upptime/upptime>
