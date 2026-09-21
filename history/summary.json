@@ -46,20 +46,20 @@
     "url": "https://kotodama.dev/health?service=database",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "sq-lite",
-    "status": "degraded",
-    "uptime": "99.90%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "99.65%",
-    "uptimeMonth": "99.90%",
-    "uptimeYear": "99.90%",
-    "time": 995,
-    "timeDay": 3837,
-    "timeWeek": 1914,
-    "timeMonth": 995,
-    "timeYear": 995,
+    "status": "up",
+    "uptime": "99.87%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
+    "time": 981,
+    "timeDay": 2737,
+    "timeWeek": 1808,
+    "timeMonth": 981,
+    "timeYear": 981,
     "dailyMinutesDown": {
       "2026-09-16": 30,
-      "2026-09-21": 5
+      "2026-09-21": 17
     }
   },
   {
