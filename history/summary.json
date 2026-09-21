@@ -4,19 +4,20 @@
     "url": "https://kotodama.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "web-publica",
-    "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.10%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
     "time": 703,
     "timeDay": 722,
     "timeWeek": 686,
     "timeMonth": 703,
     "timeYear": 703,
     "dailyMinutesDown": {
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-21": 13
     }
   },
   {
@@ -24,19 +25,20 @@
     "url": "https://kotodama.dev/health?service=php",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "php",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "99.97%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
     "time": 376,
     "timeDay": 313,
     "timeWeek": 372,
     "timeMonth": 376,
     "timeYear": 376,
     "dailyMinutesDown": {
-      "2026-09-12": 4
+      "2026-09-12": 4,
+      "2026-09-21": 8
     }
   },
   {
@@ -44,19 +46,20 @@
     "url": "https://kotodama.dev/health?service=database",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "sq-lite",
-    "status": "up",
-    "uptime": "99.91%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.91%",
+    "status": "down",
+    "uptime": "99.90%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
     "time": 784,
     "timeDay": 358,
     "timeWeek": 1423,
     "timeMonth": 784,
     "timeYear": 784,
     "dailyMinutesDown": {
-      "2026-09-16": 30
+      "2026-09-16": 30,
+      "2026-09-21": 3
     }
   },
   {
@@ -64,17 +67,17 @@
     "url": "https://kotodama.dev/health?service=storage",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "almacenamiento",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 379,
-    "timeDay": 306,
-    "timeWeek": 377,
-    "timeMonth": 379,
-    "timeYear": 379,
+    "time": 1188,
+    "timeDay": 11264,
+    "timeWeek": 3107,
+    "timeMonth": 1188,
+    "timeYear": 1188,
     "dailyMinutesDown": {}
   }
 ]
