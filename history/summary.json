@@ -4,10 +4,10 @@
     "url": "https://kotodama.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "web-publica",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 731,
@@ -17,7 +17,8 @@
     "timeYear": 731,
     "dailyMinutesDown": {
       "2026-09-12": 8,
-      "2026-09-21": 13
+      "2026-09-21": 13,
+      "2026-10-24": 1
     }
   },
   {
@@ -25,9 +26,9 @@
     "url": "https://kotodama.dev/health?service=php",
     "icon": "https://icons.duckduckgo.com/ip3/kotodama.dev.ico",
     "slug": "php",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
@@ -38,7 +39,8 @@
     "timeYear": 387,
     "dailyMinutesDown": {
       "2026-09-12": 4,
-      "2026-09-21": 8
+      "2026-09-21": 8,
+      "2026-10-24": 0
     }
   },
   {
